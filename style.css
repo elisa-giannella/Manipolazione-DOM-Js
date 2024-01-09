@@ -1,0 +1,157 @@
+body {
+    font-family: 'Source Serif 4', serif;
+}
+
+p, .p {
+    margin: 0px;
+}
+
+.card-magic{
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 364px;
+    width: 258px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 4px;
+
+}
+
+.card-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.card-heading{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(183, 183, 183);
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 4px 3px;
+}
+
+.mana-cost{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.mana{
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    font-size: 12px;
+    margin: 0px 0.5px;
+}
+
+.card-heading2{
+    width: 100%;
+    height: 23px;
+    background-color: rgb(183, 183, 183);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 4px 5px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-text{
+    padding: 6px;
+    font-size: 11px;
+    background-color: rgb(216, 216, 216);
+    border-top: 1px solid black;
+    border-radius: 2px;
+    height: 110px;
+    font-weight: 600;
+}
+
+/* .card-description{
+    height: 100%;
+
+} */
+
+.card-stats-box{
+    bottom: -4px;
+    right: -4px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    width: 100%;
+}
+
+.card-stats{
+    display: inline-block;
+    color: rgb(183, 183, 183);
+    padding: 3px 10px;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 8px;
+    background-color: rgb(32, 32, 32);
+}
+
+.black-mana {
+    width: 19px;
+    height: 19px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: 0px 0.5px;
+}
+
+.blue-mana {
+    width: 19px;
+    height: 19px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(40, 58, 219);
+    margin: 0px 0.5px;
+}
+
+.green-mana {
+    width: 19px;
+    height: 19px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(3, 74, 36);
+    margin: 0px 0.5px;
+}
+
+.red-mana {
+    width: 19px;
+    height: 19px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(152, 14, 14);
+    margin: 0px 0.5px;
+}
+
+.white-mana {
+    width: 19px;
+    height: 19px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0px 0.5px;
+}

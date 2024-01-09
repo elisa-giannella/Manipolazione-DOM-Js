@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- traccia -->
+
+    <div class="container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 py-5">
+                <h1>Esercizio 1 (05/10/2023)</h1>
+            </div>
+            <div class="col-7">
+                Lavoriamo sul DOM. Creare 3 paragrafi in HTML e 3 bottoni.
+
+                Il primo bottone dovrà nascondere i 3 paragrafi e farli ricomparire
+                il secondo bottone dovrà cambiare i colori dei paragrafi in maniera casuale
+                il terzo bottone dovrà rendere i paragrafi in grassetto e farli tornare come prima.
+                PS: Uniamo le conoscenze che abbiamo appreso finora, come sappiamo quando c'è qualcosa di casuale possiamo utilizzare il Math.random().
+            </div>
+        </div>
+    </div>
+
+    <!-- svolgimento -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-10 m-2 d-flex justify-content-evenly">
+
+                <button type="button" class="btn btn-outline-success hide-p">Nascondi</button>
+
+                <button type="button" class="btn btn-outline-danger bgRandom">Cambia sfondo</button>
+
+                <button type="button" class="btn btn-outline-primary bold-p">Grassetto</button>
+
+            </div>
+
+            <div class="col-3 text-end p-3 m-2 paragrafi">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, est voluptatem? Pariatur aliquam perspiciatis accusamus tempora quisquam ullam eveniet reprehenderit placeat, suscipit temporibus quo, maiores reiciendis? Possimus provident necessitatibus sunt.
+                </p>
+            </div>
+            <div class="col-3 text-center p-3 m-2 paragrafi">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, est voluptatem? Pariatur aliquam perspiciatis accusamus tempora quisquam ullam eveniet reprehenderit placeat, suscipit temporibus quo, maiores reiciendis? Possimus provident necessitatibus sunt.
+                </p>
+            </div>
+            <div class="col-3 text-start p-3 m-2 paragrafi">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, est voluptatem? Pariatur aliquam perspiciatis accusamus tempora quisquam ullam eveniet reprehenderit placeat, suscipit temporibus quo, maiores reiciendis? Possimus provident necessitatibus sunt.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="./es-1.js"></script>
+</body>
+</html>
